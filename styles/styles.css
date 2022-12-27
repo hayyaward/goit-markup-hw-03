@@ -98,9 +98,7 @@ img {
   gap: 40px;
 }
 .header-item {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+ 
 }
 
 .header-link {
@@ -109,6 +107,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--description-text-color);
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:hover {
@@ -124,20 +125,19 @@ img {
 
 .header-mail {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: block;
+  
 }
 .header-tel {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: block;
+  
 }
 
 .contact-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--description-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .contact-link:hover {
@@ -203,8 +203,11 @@ img {
   gap: 24px;
 }
 .merits-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+     
 }
 .merits-heading {
+  margin-bottom: 8px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.02em;
